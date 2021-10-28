@@ -1,0 +1,65 @@
+
+table{
+	background-color: powderblue;
+	width: 60%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+td, th{
+	border: 1px solid black;
+	text-align: left;
+	padding: 6px;
+}
+p{
+	text-align:left;
+	font-size:14px;
+	
+}
+.dummy{
+	float: right;
+	font-size: 13px;
+}
+.skills{
+	float: left;
+	
+}
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	#pagewrap {
+		width: 94%;
+		}
+	#content {
+		width: 65%;
+		}
+	#sidebar {
+		width: 30%;
+		}
+}
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+	#content {
+		width: auto;
+		float: none;
+		}
+	#sidebar {
+		width: auto;
+		float: none;
+		}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	#header {
+		height: auto;
+		}
+	h1 {
+		font-size: 30px;
+		}
+	#sidebar {
+		display: none;
+		}
+}
